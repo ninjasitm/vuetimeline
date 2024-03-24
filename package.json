@@ -10,6 +10,7 @@
     "components",
     "timeline"
   ],
+  "type": "module",
   "homepage": "https://www.growthbunker.dev/vuetimeline",
   "repository": {
     "type": "git",
@@ -19,7 +20,7 @@
     "email": "product@growthbunker.com",
     "url": "https://github.com/growthbunker/vuetimeline/issues"
   },
-  "main": "src/entry.js",
+  "main": "dist/vuetimeline.ssr.js",
   "module": "dist/vuetimeline.esm.js",
   "unpkg": "dist/vuetimeline.min.js",
   "files": [
@@ -43,25 +44,25 @@
   },
   "devDependencies": {
     "@growthbunker/stylesheets": "0.2.13",
-    "balanced-match": "*",
+    "balanced-match": "3.0.1",
     "autoprefixer": "9.6.1",
     "cross-env": "6.0.3",
     "minimist": "1.2.3",
-    "node-sass": "*",
+    "node-sass": "9.0.0",
     "pug": "2.0.4",
     "pug-lint-vue": "^0.3.0",
     "pug-plain-loader": "1.0.0",
-    "rollup": "*",
-    "@rollup/plugin-buble": "*",
-    "@rollup/plugin-commonjs": "*",
-    "@rollup/plugin-replace": "*",
-    "@rollup/plugin-terser": "*",
+    "rollup": "^4.1.30",
+    "@rollup/plugin-buble": "^1.0.3",
+    "@rollup/plugin-commonjs": "^25.0.7",
+    "@rollup/plugin-replace": "^5.0.5",
+    "@rollup/plugin-terser": "^0.4.4",
     "@rollup/plugin-vue": "https://github.com/vuejs/rollup-plugin-vue#next",
-    "stylelint": "^12.0.0",
-    "stylelint-config-recommended-scss": "^4.1.0",
-    "stylelint-processor-html": "^1.0.0",
-    "stylelint-scss": "^3.13.0",
-    "vue": "^3.0.0",
-    "vue-template-compiler": "*"
+    "stylelint": "*",
+    "stylelint-config-recommended-scss": "*",
+    "stylelint-processor-html": "*",
+    "stylelint-scss": "*",
+    "vue": "^3.4.21",
+    "vue-template-compiler": "2.7.16"
   }
 }
